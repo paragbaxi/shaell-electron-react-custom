@@ -30,7 +30,7 @@ const Hello = () => {
         <button
           type="button"
           onClick={() => {
-            setValue('bar');
+            setValue(divRef!.current.value);
           }}
         >
           Click Set!
